@@ -2,6 +2,17 @@
 
 The source code used for paper [RulePrompt: Weakly Supervised Text Classification with Prompting PLMs and Self-Iterative Logical Rules](https://arxiv.org/abs/2403.02932), published in WWW 2024.
 
+## Requirements
+
+Before running, you need to first install the required packages by typing following commands:
+```
+pip install -r requirements.txt
+```
+Also, you need to download the stopwords in the NLTK library:
+```
+import nltk
+nltk.download('stopwords')
+```
 
 ## Dataset
 
